@@ -39,7 +39,7 @@ function updateMap(data) {
 
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution:
-      '&copy; <a href="https://opwnstreetmap.org/copyright">OpenStreetMap</a>',
+      '&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap</a>',
   }).addTo(map);
 
   const icon = L.icon({
