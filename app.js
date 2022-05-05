@@ -6,11 +6,11 @@ const submitBtn = document.querySelector("form");
 
 function url(searchIp, searchDomain) {
   if (searchIp == undefined && searchDomain == undefined) {
-    return "https://geo.ipify.org/api/v2/country,city?apiKey=at_MZZAOcTwZnbsq8dxB6nJHq0jPoIe5";
+    return "https://geo.ipify.org/api/v2/country,city?apiKey=at_vaOHw132qrAzbi1lwhrJYh5Hn0pTF";
   } else if (/[a-z.]$/.test(searchDomain)) {
-    return `https://geo.ipify.org/api/v2/country,city?apiKey=at_MZZAOcTwZnbsq8dxB6nJHq0jPoIe5&domain=${searchDomain}`;
+    return `https://geo.ipify.org/api/v2/country,city?apiKey=at_vaOHw132qrAzbi1lwhrJYh5Hn0pTF&domain=${searchDomain}`;
   } else {
-    return `https://geo.ipify.org/api/v2/country,city?apiKey=at_MZZAOcTwZnbsq8dxB6nJHq0jPoIe5&ipAddress=${searchIp}`;
+    return `https://geo.ipify.org/api/v2/country,city?apiKey=at_vaOHw132qrAzbi1lwhrJYh5Hn0pTF&ipAddress=${searchIp}`;
   }
 }
 
